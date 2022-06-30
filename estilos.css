@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(224, 224, 224); 
+}
+
+
+
+.text-white h2 {
+    text-decoration: white;
+}
+
+
+
+.img-logo {
+    margin-left: 10px;
+    margin-top: 40px;
+    width: 230px;
+}
+
+
+
+@media screen and (min-width:480px) {
+    .buscar:hover > .buscar_text{
+        width: 190px;
+    }
+
+    .d-flex {
+        width: 50px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .buscar:hover > .buscar_text{
+        width: 300px;
+    }
+}
+    .d-flex {
+        width: 150px;
+    }
+
+
+@media screen and (min-width: 1024px) {
+    .buscar:hover > .buscar_text{
+        width: 500px;
+    }
+
+    .d-flex {
+        width: 250px;
+    }
+}
+
+.container-fluid {
+    background: rgb(0, 0, 5);
+
+    height: 120px;
+}
+
+
+
+.accordion {
+    position: absolute;
+    display: block;
+    top: 50px;
+    left: 480px;
+    width: 200px;
+    font-family: inherit;
+    outline: 0;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    visibility: visible;
+    border: 0;
+    line-height: 35px;
+}
+
+#buscar {
+    position: absolute;
+    left: 679px;
+    width: 400px;
+    top: 70px;
+}
+
+#boton-buscar {
+    position: absolute;
+    left: 1079px;
+    top: 70px;
+}
+
+
+
